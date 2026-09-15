@@ -68,7 +68,7 @@ print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
 print(myfile2.loc["Tokyo"])
 
 print("########################3333")
-print(myvar.iloc[1])
+print(myfile2.iloc[1])
 
 print("###############################################")
 
@@ -92,6 +92,7 @@ df = {
 df2 = pd.DataFrame(df)
 print(df2)
 
+print("55555555555555555555555555555555")
 df2.to_csv("D:\pylibs\datademo", header = False, index = False)
 
 df1 = pd.read_csv(r"D:\pylibs\datademo", header = None)
@@ -111,6 +112,3 @@ df4.to_csv("D:\pylibs\datasdemo", sep = "\t", index = False)
 df5 = pd.read_csv(r"D:\pylibs\datasdemo", sep = "\t")
 print(df5)
 
-
-print("*********************************************")
-da = pd.read_csv()

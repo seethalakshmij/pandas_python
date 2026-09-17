@@ -90,3 +90,12 @@ y = x*2
 y1 = [3,5,7,9]
 
 
+plt.plot(x, y, label = 'y = 2x')
+plt.plot(x, y1, '-.', label='y1')
+plt.fill_between(x, y, y1, color = 'green', alpha = 0.4)
+
+plt.xlabel("X-axis data")
+plt.ylabel("Y-axis data")
+plt.title("Filled Area Between Two Lines")
+plt.legend()
+plt.show()

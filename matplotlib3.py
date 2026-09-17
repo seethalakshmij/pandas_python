@@ -78,3 +78,15 @@ sub4.set_yticks(list(range(0, 24, 2)))
 sub4.set_title('4th Rep')
 
 plt.show()
+
+#==========================================
+#Fill Area Between Two Lines
+#==========================================
+
+print("Fill Area Between Two Lines")
+
+x= np.array([1,2,3,4])
+y = x*2
+y1 = [3,5,7,9]
+
+

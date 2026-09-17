@@ -36,7 +36,8 @@ plt.xlabel('X-axis')
 plt.ylabel('Y-axis')
 plt.title('Customized Line Plot with Multiple Series')
 
-plt.legend()
+
+plt.legend()# used to show the scale box
 plt.savefig('all_features_plot.png')
 plt.show()
 

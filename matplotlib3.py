@@ -113,3 +113,16 @@ plt.xlabel('Fruits')
 plt.ylabel('Sales')
 plt.show()
 
+#==========================================
+#Creating Horizontal Bar Plots
+#==========================================
+
+fruits = ['Apples', 'Bananas', 'Cherries', 'Dates']
+sales = [400, 350, 300, 450]
+
+plt.barh(fruits, sales)
+
+plt.title('Fruit Sales')
+plt.xlabel('Fruits')
+plt.ylabel('Sales')
+plt.show()

@@ -100,8 +100,9 @@ plt.title("Filled Area Between Two Lines")
 plt.legend()
 plt.show()
 
-import matplotlib.pyplot as plt
-import numpy as np
+#===================================
+#Customizing Bar Colors
+#===================================
 
 fruits = ['Apples', 'Bananas', 'Cherries', 'Dates']
 sales = [400, 350, 300, 450]
@@ -111,3 +112,4 @@ plt.title('Fruit Sales')
 plt.xlabel('Fruits')
 plt.ylabel('Sales')
 plt.show()
+
